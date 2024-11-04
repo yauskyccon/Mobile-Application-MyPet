@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".feeding">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Feeding \nSchedule"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/add_feeding_button"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_view"
+        android:layout_alignRight="@id/top_view"
+        android:layout_marginTop="-130dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/font1"
+        android:text="+"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/voice_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_view"
+        android:layout_alignRight="@id/top_view"
+        android:layout_marginTop="-180dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/font1"
+        android:text="Voice"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_view"
+        android:fontFamily="@font/font1"
+        android:text="Back"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-160dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/no_feeding_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="No Feeding Schedule"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_feeding_button"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <GridLayout
+            android:id="@+id/feeding_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:columnCount="2"
+            android:rowCount="4" />
+
+    </ScrollView>
+
+</RelativeLayout>

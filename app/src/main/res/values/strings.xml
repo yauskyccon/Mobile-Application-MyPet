@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name"><b>MY PET</b></string>
+
+    <string name="dog_image_description"><b>MY PET</b></string>
+
+    <string name="start"><b>START</b></string>
+
+    <string name="username">EMAIL:</string>
+
+    <string name="password">PASSWORD:</string>
+
+    <string name="login"><b>LOGIN</b></string>
+
+    <string name="register"><b>REGISTER</b></string>
+
+    <string name="registration"><b><u>USER REGISTRATION</u></b></string>
+
+    <string name="back"><b>BACK</b></string>
+
+    <string name="reset"><b>RESET PASSWORD</b></string>
+
+    <string name="profile"><b>PET PROFILE</b></string>
+
+    <string name="name">PET NAME:</string>
+
+    <string name="save"><b>SAVE</b></string>
+
+    <string name="titlepetprofile"><b><u>PET PROFILE</u></b></string>
+
+    <string name="logout"><b>LOGOUT</b></string>
+
+    <string name="pettype">PET TYPE:</string>
+
+    <string name="petage">PET AGE:</string>
+
+    <string name="camera"><b>TAKE PHOTO</b></string>
+
+    <string name="delete"><b>DELETE ACCOUNT</b></string>
+
+    <string name="age"><b>PET AGE</b></string>
+
+    <string name="appointment"><b>PET APPOINTMENT</b></string>
+
+    <string name="feeding"><b>PET FEEDING</b></string>
+
+    <string name="contact"><b>CONTACT US</b></string>
+
+    <string name="welcome"><b>WELCOME TO MY PET</b></string>
+
+    <string name="create"><b>CREATE</b></string>
+
+    <string name="petoption"><b>CHOOSE YOUR PET TYPE:</b></string>
+
+    <string name="submit"><b>SUBMIT</b></string>
+
+
+
+
+
+</resources>
